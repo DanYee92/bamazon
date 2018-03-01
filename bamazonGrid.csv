@@ -1,0 +1,11 @@
+id,product_name,department_name,price,stock_quantity
+1,"Nintendo Switch","Video Games",500.00,50
+2,"VR Headset",Devices,115.00,40
+3,"iPhone Case",Accessories,10.00,200
+4,"Playstation 4","Video Games",300.00,15
+5,"Night Vision Goggles","Outdoor Recreation",200.00,100
+6,"Fire TV Stick",Devices,50.00,80
+7,"Surface Book",Laptop,999.00,50
+8,"Boxing Stand",Sports,240.00,25
+9,Mattress,Home,400.00,10
+10,"Blender Bottle",Kitchen,8.00,80

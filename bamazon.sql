@@ -1,13 +1,13 @@
--- Drop bamazonDB if it exists --
-DROP DATABASE IF EXISTS bamazonDB;
--- Create bamazonDB --
-CREATE DATABASE bamazonDB;
--- Use bamazonDB --
-USE bamazonDB;
+-- Drop bamazon if it exists --
+DROP DATABASE IF EXISTS bamazon;
+-- Create bamazon --
+CREATE DATABASE bamazon;
+-- Use bamazon --
+USE bamazon;
 
 -- Create products table --
 CREATE TABLE products (
-  id INT(3) ZEROFILL NOT NULL AUTO_INCREMENT,
+  id INT NOT NULL AUTO_INCREMENT,
   product_name VARCHAR(50) NOT NULL,
   department_name VARCHAR(50) NOT NULL,
   price DECIMAL(10,2) NOT NULL,
